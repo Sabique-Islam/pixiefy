@@ -22,8 +22,8 @@ export default function ProfileForm() {
       if (!res.ok) throw new Error(data.error || 'Unknown error')
 
       setProfile(data)
-    } catch (err: any) {
-      setError(err.message)
+    } catch (err: unknown) {
+      setError(err instanceof Error ? err.message : 'Unknown error')
       setProfile(null)
     } finally {
       setLoading(false)
