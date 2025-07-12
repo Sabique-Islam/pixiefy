@@ -93,7 +93,7 @@ export function MenuContainer({ children }: { children: React.ReactNode }) {
     <div className="relative w-[64px]" data-expanded={isExpanded}>
       <div className="relative">
         <div
-          className="relative w-16 h-16 bg-black cursor-pointer rounded-full group z-50"
+          className="relative w-16 h-16 backdrop-blur-xl bg-transparent cursor-pointer rounded-full group z-50"
           onClick={handleToggle}
         >
           {childrenArray[0]}
