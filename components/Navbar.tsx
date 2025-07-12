@@ -28,7 +28,7 @@ export default function Navbar() {
             height={30}
             className="rounded-md bg-black/20 p-1"
           />
-          <span className="font-semibold tracking-tight text-sm sm:text-base">Pixify</span>
+          <span className="font-semibold tracking-tight text-sm sm:text-base">Pixiefy</span>
         </Link>
       </div>
 

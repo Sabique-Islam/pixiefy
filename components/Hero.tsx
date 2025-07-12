@@ -31,9 +31,9 @@ const Hero = () => {
             </div>
           </div>
           <h1 className="text-5xl font-bold leading-tight flex items-center justify-center gap-3">
-            Pixify
+            Pixiefy
           </h1>
-          <p className="text-md">Pixify lets you generate beautiful gradient cards based on your social media handle.</p>
+          <p className="text-md">Pixiefy lets you generate beautiful gradient cards based on your social media handle.</p>
         </div>
       </main>
     </div>
