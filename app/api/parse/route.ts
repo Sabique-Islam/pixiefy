@@ -12,8 +12,8 @@ export async function GET(req: NextRequest) {
   try {
     const profile = await fetchProfileFromUrl(url)
     return NextResponse.json(profile)
-  } catch (err: any) {
-    console.error('Parse error:', err.message)
-    return NextResponse.json({ error: err.message }, { status: 400 })
+  } catch (err: unknown) {
+    console.error('Parse error:', (err as Error).message)
+    return NextResponse.json({ error: (err as Error).message }, { status: 400 })
   }
 }

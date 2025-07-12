@@ -22,8 +22,8 @@ export async function fetchGitHubProfile(username: string) {
       avatar: data.avatar_url,
       bio: data.bio,
     }
-  } catch (err: any) {
-    console.error('GitHub API Error:', err.message)
+  } catch (err: unknown) {
+    console.error('GitHub API Error:', (err as Error).message)
     throw new Error('Failed to fetch GitHub profile')
   }
 }

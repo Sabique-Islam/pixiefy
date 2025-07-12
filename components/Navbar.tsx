@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { useState, useEffect } from 'react'
+
 import { Github, Linkedin, Twitter, Menu as MenuIcon, Pizza } from 'lucide-react'
 import { MenuContainer, MenuItem } from '@/components/ui/fluid-menu'
 
