@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 
-import { Github, Linkedin, Twitter, Menu as MenuIcon, Pizza } from 'lucide-react'
+import { Github, Linkedin, Twitter, Menu as MenuIcon, Coffee} from 'lucide-react'
 import { MenuContainer, MenuItem } from '@/components/ui/fluid-menu'
 
 export default function Navbar() {
@@ -32,7 +32,7 @@ export default function Navbar() {
   }, [lastScrollY])
 
   const links = [
-    { href: "https://coff.ee/nope.js", icon: <Pizza className="w-5 h-5" />, label: "Support Me" },
+    { href: "https://coff.ee/nope.js", icon: <Coffee className="w-5 h-5" />, label: "Buy Me Coffee" },
     { href: "https://github.com/Sabique-Islam", icon: <Github className="w-5 h-5" />, label: "GitHub" },
     { href: "https://x.com/Sabique_", icon: <Twitter className="w-5 h-5" />, label: "Twitter" },
     { href: "https://www.linkedin.com/in/sabique-islam/", icon: <Linkedin className="w-5 h-5" />, label: "LinkedIn" },
