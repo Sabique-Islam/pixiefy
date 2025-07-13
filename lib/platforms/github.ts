@@ -21,6 +21,7 @@ export async function fetchGitHubProfile(username: string) {
       name: data.name,
       avatar: data.avatar_url,
       bio: data.bio,
+      link: `https://github.com/${username}`
     }
   } catch (err: unknown) {
     console.error('GitHub API Error:', (err as Error).message)

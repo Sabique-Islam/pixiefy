@@ -4,4 +4,5 @@ export type Profile = {
   name: string | null
   avatar: string | null
   bio: string | null
+  link: string | null
 }
