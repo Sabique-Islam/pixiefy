@@ -26,7 +26,7 @@ export async function fetchRedditProfile(username: string) {
   return {
     platform: 'reddit',
     username: data.name,
-    name: data.subreddit?.title || null,
+    name: data.subreddit?.title || data.name || null,
     avatar: data.icon_img || data.snoovatar_img || null,
     bio: data.subreddit?.public_description || null,
     link: `https://www.reddit.com/user/${username}`
