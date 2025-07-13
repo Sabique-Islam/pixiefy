@@ -16,7 +16,12 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'www.redditstatic.com',
         pathname: '/**',
-      }
+      },
+      {
+        protocol: 'https',
+        hostname: 'styles.redditmedia.com',
+        pathname: '/**',
+      },
     ]
   }
 };
