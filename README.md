@@ -1,9 +1,9 @@
 
 ---
 
-# Pixiefy
+# Pixiefie
 
-![Pixiefy](./public/Drop/Landing.png)
+![Pixiefie](./public/Drop/Landing.png)
 
 A lightweight web app to generate beautiful gradient social-media cards in seconds.
 
@@ -20,8 +20,8 @@ A lightweight web app to generate beautiful gradient social-media cards in secon
 I. Clone the repository
 
 ```bash
-git clone https://github.com/Sabique-Islam/pixiefy
-cd pixiefy
+git clone https://github.com/Sabique-Islam/pixiefie
+cd pixiefie
 ```
 
 II. Configure environment file
