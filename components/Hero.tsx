@@ -36,11 +36,11 @@ const Hero = () => {
           </div>
           
           <h1 className="text-6xl md:text-7xl font-bold leading-tight bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
-            Pixiefy
+            Pixiefie
           </h1>
           
           <p className="text-lg text-gray-300 leading-relaxed max-w-2xl mx-auto">
-            Pixiefy transforms your social media handles into stunning gradient cards effortlessly
+            Pixiefie transforms your social media handles into stunning gradient cards effortlessly
           </p>
           
           <div className="flex justify-center mt-8">

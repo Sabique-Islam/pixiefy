@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pixiefy",
+  title: "Pixiefie",
   description: "Bring life to your social media handles",
 };
 
