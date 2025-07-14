@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Pixiefie",
   description: "Bring life to your social media handles",
+  verification: {
+    google: "mIo3P0IZTuqEjLnewHE-0WMcJrPieDymtHbCfXZnflw",
+  },
 };
 
 export default function RootLayout({
@@ -27,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-                    {children}
+        {children}
       </body>
     </html>
   );
